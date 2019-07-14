@@ -1,0 +1,20 @@
+.profilePicture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-bottom: 30px; 
+}
+
+body {
+    background: #fae3d9;
+}
+
+.profileText {
+    font-family: 'Montserrat', sans-serif;
+    /* Can change the width of the text */
+    width: 700px;
+    display: block;
+    margin:auto;
+}
