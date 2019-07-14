@@ -1,20 +1,30 @@
+body {
+    background: #fae3d9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* main profile picture */
 .profilePicture {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    display: block;
-    margin:auto;
     margin-bottom: 30px; 
 }
 
-body {
-    background: #fae3d9;
-}
-
-.profileText {
-    font-family: 'Montserrat', sans-serif;
-    /* Can change the width of the text */
-    width: 700px;
+/* class for centering images */
+.centerBlock{
     display: block;
     margin:auto;
+}
+
+/* main body of text */
+.profileText {
+    /* Can change the width of the text */
+    width: 700px;
+}
+
+/* Heading intro hi im adam */
+.profileHeading {
+    text-align: center;
+    font-size: 50px;
 }
