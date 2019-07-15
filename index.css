@@ -18,14 +18,18 @@ body {
 
 /* main body of text */
 .profileText {
-   margin-top: 30px;
+    line-height: 1.7;
+    margin-top: 20px;
+    font-weight: bold;
 }
 
 /* Heading intro hi im adam */
 .profileHeading {
     text-align: center;
-    font-size: 50px;
-    margin-top: 30px;
+    font-size: 65px;
+    margin-top: 5px;
+    color: #145374;
+    font-family: 'Nunito', sans-serif;
 }
 
 /* Bar For Buttons */
