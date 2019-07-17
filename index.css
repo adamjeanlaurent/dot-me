@@ -1,6 +1,7 @@
 body {
     background: #fae3d9;
     font-family: 'Montserrat', sans-serif;
+    opacity: 0;
 }
 
 /* main profile picture */
