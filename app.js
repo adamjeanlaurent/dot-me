@@ -1,10 +1,12 @@
 let opacity = 0;
 let timeInterval = 0;
 
+// fade in animation
 function fadeIn() {
     timeInterval = setInterval(show,20);
 }
 
+// slowly increases the opacity of the body
 function show() {
     let body = document.querySelector('body');
     opacity = Number(window.getComputedStyle(body).getPropertyValue('opacity'));
