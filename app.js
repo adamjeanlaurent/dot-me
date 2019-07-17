@@ -11,6 +11,7 @@ function show() {
     let body = document.querySelector('body');
     opacity = Number(window.getComputedStyle(body).getPropertyValue('opacity'));
     if(opacity < 1){
+        // edit the + [value] to change rate at which the body fades in 
         opacity = opacity + 0.012;
         body.style.opacity = opacity;
     }
