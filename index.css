@@ -12,15 +12,15 @@ body {
 }
 
 /* class for centering images */
-.centerBlock{
+.centerBlock {
     display: block;
     margin: auto;
-}
+} 
 
 /* main body of text */
 .profileText {
     line-height: 1.7;
-    margin-top: 3%;
+    margin-top: 1%;
     font-weight: bold;
 }
 

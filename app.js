@@ -12,11 +12,12 @@ function show() {
     opacity = Number(window.getComputedStyle(body).getPropertyValue('opacity'));
     if(opacity < 1){
         // edit the + [value] to change rate at which the body fades in 
-        opacity = opacity + 0.012;
+        opacity = opacity + 0.009;
         body.style.opacity = opacity;
     }
     else {
         clearInterval(timeInterval);
     }
 }
+
 fadeIn();
